@@ -1,0 +1,128 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #caf0f8, #90e0ef);
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #0077b6;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+    
+}
+
+.logo {
+    position: absolute;
+    left: 20px;
+    width: 80px;
+    height: auto;
+    top: 8px;
+}
+
+.header-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.alamat {
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: auto;
+    padding-top: 10px;
+}
+
+nav {
+    display: flex;
+            justify-content: center;
+            background: #0096c7;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            top: 100px;
+            left: 0;
+            z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #023e8a;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+    flex: 1;
+}
+
+.card {
+    background: white;
+    top: 50px;
+    margin: 150px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+img {
+   display: block;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+img.jurusan {
+    display: block;
+    width: 200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h2 {
+    color: #0077b6;
+}
+
+footer {
+    background: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: auto;
+}
+form{
+    margin-top: 0px;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
